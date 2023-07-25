@@ -41,11 +41,11 @@
 <body class="font">
       <!---------------------------------------- Header Start ------------------------------------------>
 
-      <header class="max-w-7xl mx-auto ">
+      <header class="max-w-screen-2xl mx-auto">
             <nav>
-                  <div class="navbar flex-row-reverse sm:flex-row bg-[#F85559] rounded-full my-5 text-white gap-32 sm:gap-6  p-4 justify-between sm:justify-around">
+                  <div class="navbar my-8 p-4 bg-[#F85559] text-white rounded-full flex-row-reverse sm:flex-row justify-between gap-32 sm:gap-0">
                         <div class="">
-                              <div class="dropdown">
+                              <div class="dropdown ">
                                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                                           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                                                 stroke="currentColor">
@@ -61,22 +61,23 @@
                                           <li><a>All Fruits</a></li>
                                     </ul>
                               </div>
+                              
                         </div>
-                        <div class="navbar-center hidden lg:flex">
-                              <ul class="menu menu-horizontal px-8 font-medium text-[18px]">
+                        <div class="navbar-start hidden lg:flex">
+                              <ul class="menu menu-horizontal px-1">
                                     <li><a>Home</a></li>
                                     <li><a>About Us</a></li>
                                     <li><a>Shop</a></li>
                                     <li><a>All Fruits</a></li>
                               </ul>
                         </div>
-                        <div class="">
-                              <img src="images/logo.png" alt="">
-                              <a class="btn btn-ghost normal-case text-[25px] lg:text-[40px] font-extrabold ">Fruit Burst</a>
+                        <div class="navbar-center ">
+                              <img src="images/logo.png" class="w-8" alt="">
+                              <a class="btn btn-ghost capitalize text-xl">Fruit Burst</a>
                         </div>
                         
-                        <div class="navbar-end p-2 lg:pr-0  ">
-                                    <input type="text" placeholder="Search" class="input input-bordered w-10 invisible md:visible md:w-[320px] rounded-full" />
+                        <div class="navbar-end ">
+                                    <input type="text" placeholder="Search" class="input input-bordered w-64 rounded-full invisible sm:visible" />
                         </div>
                   </div>
             </nav>
